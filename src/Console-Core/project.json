@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "compile": [
+      "**/*.cs",
+      "../Console-Desktop/Resource1.Designer.cs"
+    ],
+
+    "embed": {
+      "mappings": {
+        "Console_Desktop.Resource1": "../Console-Desktop/Resource1.resx"
+      }
+    }
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0-rc2-3002426"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {}
+  }
+}
